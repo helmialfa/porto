@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'gambar': "url('../public/3.png')",
+      },
       fontFamily: {
         burtons: "burtons",
         poppins: ["Poppins", "sans-serif"],

@@ -17,6 +17,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import bgimg from "../public/2.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -82,50 +83,38 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-gray-200 flex-1 hover:bg-pink-300 dark:hover:bg-pink-300 hover:scale-105 transition ease-in-out duration-300 ">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10 bg-gambar flex flex-col border-2 bg-center bg-bottom bg-contain bg-no-repeat dark:bg-gray-200 flex-1 hover:bg-pink-300 dark:hover:bg-pink-300 hover:scale-105 transition ease-in-out duration-300">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-3xl font-medium pt-8 pb-2  ">
+              <h3 className="text-3xl font-medium pb-2 font-semibold">
                 Skill 1
               </h3>
-              <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
-              </p>
-              <h4 className="py-4 text-pink-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-pink-600 font-semibold">Design Tools I Use</h4>
+              <p className="text-gray-800 py-1 font-semibold">Photoshop</p>
+              <p className="text-gray-800 py-1 font-semibold">Illustrator</p>
+              <p className="text-gray-800 py-1 font-semibold">Figma</p>
+              <p className="text-gray-800 py-1 font-semibold">Indesign</p>
             </div>
-            <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-gray-200 flex-1 hover:bg-pink-300 dark:hover:bg-pink-300 hover:scale-105 transition ease-in-out duration-300">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10 bg-gambar flex flex-col border-2 bg-center bg-bottom bg-contain bg-no-repeat dark:bg-gray-200 flex-1 hover:bg-pink-300 dark:hover:bg-pink-300 hover:scale-105 transition ease-in-out duration-300">
               <Image src={code} width={100} height={100} />
-              <h3 className="text-3xl font-medium pt-8 pb-2 ">
+              <h3 className="text-3xl font-medium pb-2 font-semibold">
                 Skill 2
               </h3>
-              <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
-              </p>
-              <h4 className="py-4 text-pink-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-pink-600 font-semibold">Design Tools I Use</h4>
+              <p className="text-gray-800 py-1 font-semibold">Photoshop</p>
+              <p className="text-gray-800 py-1 font-semibold">Illustrator</p>
+              <p className="text-gray-800 py-1 font-semibold">Figma</p>
+              <p className="text-gray-800 py-1 font-semibold">Indesign</p>
             </div>
-            <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-gray-200 flex-1 hover:bg-pink-300 dark:hover:bg-pink-300 hover:scale-105 transition ease-in-out duration-300">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10 bg-gambar flex flex-col border-2 bg-center bg-bottom bg-contain bg-no-repeat dark:bg-gray-200 flex-1 hover:bg-pink-300 dark:hover:bg-pink-300 hover:scale-105 transition ease-in-out duration-300">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-3xl font-medium pt-8 pb-2 ">
+              <h3 className="text-3xl font-medium pb-2 font-semibold">
                   Skill 3
               </h3>
-              <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
-              </p>
-              <h4 className="py-4 text-pink-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-pink-600 font-semibold">Design Tools I Use</h4>
+              <p className="text-gray-800 py-1 font-semibold">Photoshop</p>
+              <p className="text-gray-800 py-1 font-semibold">Illustrator</p>
+              <p className="text-gray-800 py-1 font-semibold">Figma</p>
+              <p className="text-gray-800 py-1 font-semibold">Indesign</p>
             </div>
           </div>
         </section>
