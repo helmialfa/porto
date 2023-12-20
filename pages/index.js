@@ -77,12 +77,12 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Gatau Nulis Apaan</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Incididunt qui pariatur nostrud ut proident. Non aliqua fugiat laborum amet nostrud laboris. Ea aliquip officia ut tempor consectetur incididunt non velit reprehenderit tempor velit culpa.
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1 hover:bg-pink-300 transition ease-in-out duration-300 hover:scale-110 dark:hover:bg-pink-300">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-gray-200 flex-1 hover:bg-pink-300 dark:hover:bg-pink-300 hover:scale-105 transition ease-in-out duration-300 ">
               <Image src={design} width={100} height={100} />
               <h3 className="text-3xl font-medium pt-8 pb-2  ">
                 Skill 1
@@ -97,7 +97,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
-            <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1 hover:bg-pink-300 transition ease-in-out duration-300 hover:scale-110 dark:hover:bg-pink-300">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-gray-200 flex-1 hover:bg-pink-300 dark:hover:bg-pink-300 hover:scale-105 transition ease-in-out duration-300">
               <Image src={code} width={100} height={100} />
               <h3 className="text-3xl font-medium pt-8 pb-2 ">
                 Skill 2
@@ -112,7 +112,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
-            <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1 hover:bg-pink-300 transition ease-in-out duration-300 hover:scale-110 dark:hover:bg-pink-300">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-gray-200 flex-1 hover:bg-pink-300 dark:hover:bg-pink-300 hover:scale-105 transition ease-in-out duration-300">
               <Image src={consulting} width={100} height={100} />
               <h3 className="text-3xl font-medium pt-8 pb-2 ">
                   Skill 3
@@ -195,7 +195,7 @@ export default function Home() {
           </div>
         </section>
         <div className="text-center p-10 py-10">
-          <p className="font-burtons text-[1.25em] py-2 text-pink-600 font-normal dark:text-pink-400">
+          <p className="font-burtons text-[1.25em] underline py-2 text-pink-600 font-normal dark:text-pink-400">
                 MasHel © 2023
           </p>
         </div>
