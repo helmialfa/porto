@@ -56,7 +56,7 @@ export default function Home() {
               Ini Tulisan Bang
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Anim occaecat nisi anim amet irure sunt sint. Esse nulla ad deserunt laborum magna cillum. Et reprehenderit id non occaecat do cillum irure reprehenderit amet in non adipisicing minim cupidatat. Id irure laboris do aute occaecat fugiat consequat consequat amet in. Enim ullamco minim proident excepteur ipsum minim exercitation do est exercitation laborum aute consectetur proident. Velit sint qui occaecat laboris excepteur ipsum aliquip labore velit.
+              Anim occaecat nisi anim amet irure sunt sint. Esse nulla ad deserunt laborum magna cillum.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a className="hover:text-pink-500 hover:scale-110 transition  ease-in-out duration-300" href="https://github.com/">
