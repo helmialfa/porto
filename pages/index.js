@@ -43,7 +43,8 @@ export default function Home() {
                 <button
                   className="bg-gradient-to-r from-pink-500 text- to-rose-400 text-white px-4 py-2 border-none rounded-md ml-8 hover:scale-110 hover:animate-pulse transition-all ease-in-out">
                   Ini Tombol
-                </button></a>
+                </button>
+                </a>
               </li>
             </ul>
           </nav>
