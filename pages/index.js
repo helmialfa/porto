@@ -195,9 +195,9 @@ export default function Home() {
           </div>
         </section>
         <div className="text-center p-10 py-10">
-          <h2 className="font-burtons text-5xl py-2 text-pink-600 font-medium dark:text-pink-400 md:text-lg">
+          <p className="font-burtons text-[1.25em] py-2 text-pink-600 font-normal dark:text-pink-400">
                 MasHel © 2023
-          </h2>
+          </p>
         </div>
       </main>
     </div>
